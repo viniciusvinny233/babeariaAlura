@@ -1,0 +1,120 @@
+body {
+
+	font-family: 'Kiwi Maru', serif;
+    background: linear-gradient(1deg, #4d4a4a, rgb(255, 255, 255));
+
+}
+
+header {
+
+    padding: 5px 0;
+
+}
+
+.caixa {
+
+	position: relative;
+	width: 1400px;
+	margin: 0 auto;
+    
+}
+
+nav {
+
+    position: absolute;
+    top: 110px;
+    right: 0;
+
+}
+
+nav li {
+
+    display: inline;
+    margin: 0 0 0 30px;
+    
+}
+
+nav a {
+
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 35px;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+
+    transition: 0.3s;
+    color: orange;
+
+}
+
+.produtos {
+
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+
+}
+
+.produtos li {
+
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    margin: 0 1.5%;
+    border: 2px solid #000;
+    border-radius: 10px;
+    vertical-align: top;
+    padding: 30px 20px;
+    box-sizing: border-box;
+
+}
+
+.produtos li:hover {
+
+    transition: 0.3s;
+    border-color: orange;
+    border-width: 3px;
+
+}
+
+.produtos li:active {
+
+    transition: 0s;
+    border-color: rgb(179, 121, 15);
+    border-width: 4px;
+
+}
+
+.produtos h2 {
+
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.preço {
+
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 10px;
+
+}
+
+.descrição {
+
+    font-size: 18px;
+
+}
+
+footer {
+
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+
+}

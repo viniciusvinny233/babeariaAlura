@@ -1,0 +1,119 @@
+body {
+
+	font-family: 'Kiwi Maru', serif;
+    background: linear-gradient(1deg, #4d4a4a, rgb(255, 255, 255));
+
+}
+
+header {
+
+    padding: 5px 0;
+
+}
+
+.caixa {
+
+	position: relative;
+	width: 1400px;
+	margin: 0 auto;
+    
+}
+
+nav {
+
+    position: absolute;
+    top: 110px;
+    right: 0;
+
+}
+
+nav li {
+
+    display: inline;
+    margin: 0 0 0 30px;
+    
+}
+
+nav a {
+
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 35px;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+
+    transition: 0.3s;
+    color: orange;
+
+}
+
+footer {
+
+    background-image: url(https://hashtag.blogfolha.uol.com.br/files/2020/06/imagem-preta.jpg);
+    text-align: center;
+    color: white;
+    padding-bottom: 15px;
+
+}
+
+main {
+
+    width: 940px;
+    margin: 40px auto;
+
+}
+
+form label, legend {
+
+    display: block;
+    font-size: 20px;
+    margin: 0 0 20px;
+
+}
+
+.input-padrao {
+
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 20px;
+    width: 50%;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #000;
+
+}
+
+.checkbox {
+
+    margin: 20px 0;
+
+}
+
+.enviar {
+
+    border-radius: 5px;
+    border: 2px solid #000;
+    box-shadow: 3px 3px 0 #000;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+.enviar:hover {
+
+    transition: 0.3s;
+    box-shadow: none;
+    
+
+}
+
+select {
+
+    height: 40px;
+    width: 85px;
+    font-weight: bold;
+
+}
